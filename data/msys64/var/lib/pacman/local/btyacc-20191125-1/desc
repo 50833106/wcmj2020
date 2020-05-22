@@ -1,0 +1,39 @@
+%NAME%
+btyacc
+
+%VERSION%
+20191125-1
+
+%BASE%
+btyacc
+
+%DESC%
+btyacc - an LALR(1) parser generator with support for backtracking
+
+%URL%
+https://invisible-island.net/byacc
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1582548574
+
+%INSTALLDATE%
+1584671812
+
+%PACKAGER%
+Alexey Pavlov <alexpux@gmail.com>
+
+%SIZE%
+152495
+
+%GROUPS%
+base-devel
+
+%LICENSE%
+Public Domain
+
+%VALIDATION%
+pgp
+

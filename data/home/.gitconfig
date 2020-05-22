@@ -1,0 +1,5 @@
+[http]
+	#proxy = http://[2001:288:6004:17::53]:3128
+[user]
+	name = 50833106
+	email = 50833106@gm.nfu.edu.tw
