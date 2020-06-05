@@ -42,7 +42,7 @@
 
     <link href="./2020-wcm-w11-summary.html" rel="canonical" />
 
-        <meta name="description" content="1.下載 Putty 工具組 2.利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 ssh-keygen -t rsa -b 4096 -C "使用者學號"在 /y/home/.ssh 目錄下建立 id_rsa 與...">
+        <meta name="description" content="ssh 之用法">
 
         <meta name="author" content="50833106">
 
@@ -54,7 +54,7 @@
 <!-- Open Graph -->
 <meta property="og:site_name" content="50833106 網際內容管理"/>
 <meta property="og:title" content="2020wcmj W11"/>
-<meta property="og:description" content="1.下載 Putty 工具組 2.利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 ssh-keygen -t rsa -b 4096 -C "使用者學號"在 /y/home/.ssh 目錄下建立 id_rsa 與..."/>
+<meta property="og:description" content="ssh 之用法"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="./2020-wcm-w11-summary.html"/>
 <meta property="og:type" content="article"/>
@@ -82,7 +82,7 @@
   },
   "image": "./theme/images/post-bg.jpg",
   "url": "./2020-wcm-w11-summary.html",
-  "description": "1.下載 Putty 工具組 2.利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 ssh-keygen -t rsa -b 4096 -C "使用者學號"在 /y/home/.ssh 目錄下建立 id_rsa 與..."
+  "description": "ssh 之用法"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -223,7 +223,9 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>1.下載 Putty 工具組
+                <p>ssh 之用法
+
+1.下載 Putty 工具組
 2.利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 ssh-keygen -t rsa -b 4096 -C "使用者學號"在 /y/home/.ssh 目錄下建立 id_rsa 與 id_rsa.pub 等 private key 與 public key,之後以 SciTE 開啟 id_rsa.pub 後, 將此 public key 的內容, 以新增添加到 Github.com 帳號下 personal settings -&gt; SSH and GPG keys 頁面下.
 3.接下來要利用 puttygen.exe 將 id_rsa 轉為 Putty 可以解讀的 .ppk 格式, 並修改隨身系統的啟動批次檔案, 指定利用 putty 目錄下的 plink 執行 git 指令的網路代理設定.修改啟動的 start.bat 加入下列設定:
  set GIT_HOME=%Disk%:\portablegit\bin\
@@ -233,7 +235,6 @@ set GIT_SSH=%Disk%:\putty\plink.exe
 <p>5.之後確定 home 下的 .ssh 目錄中的 config 
 6.最後再將 wcmj2020 倉儲中 .git 目錄下的 config 檔案中的連線協定, 由 https 改為採 ssh 連線
 之後就可以透過近端的 .ppk private key 與 Github.com 上的 public key 對應, 無需輸入帳號密碼就可以進行 git push.</p>
-
             </section>
 
             <section class="post-info">
@@ -264,14 +265,14 @@ set GIT_SSH=%Disk%:\putty\plink.exe
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-left"></i>
                                 <h2 class="post-nav-title">2020wcmj W10</h2>
-                            <p class="post-nav-excerpt">以 SSH 維護倉儲 由於在電腦教室時採用純 IPv6 協定上網, 因此為了能夠在近端將倉儲改版資料推送到目前只接受 IPv4 協定連線的 github, 以下除了將原本以...</p>
+                            <p class="post-nav-excerpt">以 SSH 維護倉儲</p>
                         </section>
                     </a>
                     <a class="post-nav-prev" href="./2020-wcm-w12-summary.html">
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-right"></i>
                                 <h2 class="post-nav-title">2020wcmj W12</h2>
-                            <p class="post-nav-excerpt">Leo Editor 基本用法 首先必須要在隨身程式系統的命令列視窗中, 以 leo 啟動 Leo Editor, 然後開啟 [wcmj2020] 倉儲 config...</p>
+                            <p class="post-nav-excerpt">Leo Editor 基本用法</p>
                         </section>
                     </a>
                     <div class="clear"></div>
