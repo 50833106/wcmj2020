@@ -41,14 +41,8 @@
 </v>
 <v t="leo.20180115142025.1"><vh>保留之前舊的設定檔案</vh></v>
 </v>
-<v t="yen.20170224232341.2"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
-<v t="yen.20170224232341.3"><vh>@edit base.html</vh></v>
-</v>
-<v t="leo.20170710015301.1"><vh>@path theme/pelican-bootstrap3/templates</vh>
-<v t="leo.20170710015311.1"><vh>@edit search.html</vh></v>
-<v t="leo.20170710095845.1"><vh>@edit base.html</vh></v>
-<v t="leo.20170710101854.1"><vh>@edit article.html</vh></v>
-</v>
+<v t="yen.20170224232341.2"><vh>@path theme/pelican-bootstrap3_local/templates</vh></v>
+<v t="leo.20170710015301.1"><vh>@path theme/pelican-bootstrap3/templates</vh></v>
 </v>
 <v t="leo.20170710015511.1"><vh>編輯 plugin</vh>
 <v t="leo.20170710015523.1"><vh>@path plugin</vh>
@@ -68,15 +62,23 @@
 <v t="leo.20180423103639.1"><vh>2018 Fall CP 課程</vh>
 <v t="leo.20180909205246.1"><vh>@clean 20200522w10.md</vh>
 <v t="leo.20200529161544.1"><vh>2020w10</vh></v>
+<v t="leo.20200605080331.1"><vh>6567815351821584885</vh></v>
 </v>
 <v t="leo.20200522142001.1"><vh>@clean 20200522w11.md</vh>
 <v t="leo.20200529161820.1"><vh>2020w11</vh></v>
+<v t="leo.20200605080407.1"><vh>2427680632846859988</vh></v>
 </v>
 <v t="leo.20200522142040.1"><vh>@clean 20200522w12.md</vh>
 <v t="leo.20200529161821.1"><vh>2020w12</vh></v>
+<v t="leo.20200605160253.1"><vh>6009178716273774234</vh></v>
 </v>
 <v t="leo.20200529143629.1"><vh>@clean 20200529w13.md</vh>
 <v t="leo.20200529161822.1"><vh>2020w13</vh></v>
+<v t="leo.20200605080307.1"><vh>4508951632052810118</vh></v>
+</v>
+<v t="leo.20200605162113.1"><vh>@clean 20200605w14.md</vh>
+<v t="leo.20200605162217.1"><vh>2020w14</vh></v>
+<v t="leo.20200605163334.1"><vh>46306560224620819</vh></v>
 </v>
 </v>
 </v>
@@ -114,6 +116,7 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20180115142025.1"></t>
 <t tx="leo.20180423103639.1"></t>
 <t tx="leo.20180909205246.1">@language md
+---
 Title: 2020wcmj W10
 Date: 2020-05-22 14:00
 Category: Misc
@@ -128,6 +131,7 @@ Author: 50833106
 
 @others</t>
 <t tx="leo.20200522142001.1">@language md
+---
 Title: 2020wcmj W11
 Date: 2020-05-22 14:00
 Category: Misc
@@ -140,6 +144,7 @@ ssh 之用法
 
 @others</t>
 <t tx="leo.20200522142040.1">@language md
+---
 Title: 2020wcmj W12
 Date: 2020-05-22 14:00
 Category: Misc
@@ -153,6 +158,7 @@ Leo Editor 基本用法
 
 @others</t>
 <t tx="leo.20200529143629.1">@language md
+---
 Title: 2020wcmj W13
 Date: 2020-05-29 14:00
 Category: Misc
@@ -383,6 +389,27 @@ OAuth 2.0 client IDs 程式類別可以選擇 other
 
 使用者完成 client_secrets.json 設定後, 必須將檔案存在倉儲目錄外部
 </t>
+<t tx="leo.20200605080307.1"></t>
+<t tx="leo.20200605080331.1"></t>
+<t tx="leo.20200605080407.1"></t>
+<t tx="leo.20200605160253.1"></t>
+<t tx="leo.20200605162113.1">@language md
+---
+Title: 2020wcmj W14
+Date: 2020-06-05 16:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w14-summary
+Author: 50833106
+---
+使Pelican Blog 內容與 Google Blogger 同步
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200605162217.1">透過 Python 程式修改網誌文章,使用 Google Blogger API 可以利用程式修改網誌文章內容,執行以下程式, 需要擷取 client_secrets.json 權限資料</t>
+<t tx="leo.20200605163334.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
