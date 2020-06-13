@@ -80,6 +80,9 @@
 <v t="leo.20200605162217.1"><vh>2020w14</vh></v>
 <v t="leo.20200605163334.1"><vh>46306560224620819</vh></v>
 </v>
+<v t="leo.20200613133438.1"><vh>@clean 20200613w1.md</vh>
+<v t="leo.20200613133446.1"><vh>2020w1</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -410,6 +413,34 @@ Author: 50833106
 @others</t>
 <t tx="leo.20200605162217.1">透過 Python 程式修改網誌文章,使用 Google Blogger API 可以利用程式修改網誌文章內容,執行以下程式, 需要擷取 client_secrets.json 權限資料</t>
 <t tx="leo.20200605163334.1"></t>
+<t tx="leo.20200613133438.1">@language md
+---
+Title: 2020wcmj W1
+Date: 2020-06-13 14:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w1-summary
+Author: 50833106
+---
+建立blogger
+
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613133446.1">建立blogger
+
+課程小單字
+
+1 super computer 超級電腦
+2pc=person computer 個人電腦 
+3mainframe 伺服器主機
+4 server 伺服器 (虛擬 實體)
+5 mobile phone 手機
+6 microcontroller 微控制器
+Port 埠號
+DHCP動態網路位置</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

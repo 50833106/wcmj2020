@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>50833106 網際內容管理</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/all.atom.xml" rel="self"></link><id>./</id><updated>2020-06-05T16:00:00+08:00</updated><entry><title>2020wcmj W14</title><link href=".%5C2020-wcm-w14-summary.html" rel="alternate"></link><published>2020-06-05T16:00:00+08:00</published><updated>2020-06-05T16:00:00+08:00</updated><author><name>50833106</name></author><id>tag:None,2020-06-05:.\2020-wcm-w14-summary.html</id><summary type="html">&lt;p&gt;使Pelican Blog 內容與 Google Blogger 同步&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>50833106 網際內容管理</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/all.atom.xml" rel="self"></link><id>./</id><updated>2020-06-13T14:00:00+08:00</updated><entry><title>2020wcmj W1</title><link href=".%5C2020-wcm-w1-summary.html" rel="alternate"></link><published>2020-06-13T14:00:00+08:00</published><updated>2020-06-13T14:00:00+08:00</updated><author><name>50833106</name></author><id>tag:None,2020-06-13:.\2020-wcm-w1-summary.html</id><summary type="html">&lt;p&gt;建立blogger&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;建立blogger&lt;/p&gt;
+
+
+&lt;p&gt;建立blogger&lt;/p&gt;
+&lt;p&gt;課程小單字&lt;/p&gt;
+&lt;p&gt;1 super computer 超級電腦
+2pc=person computer 個人電腦 
+3mainframe 伺服器主機
+4 server 伺服器 (虛擬 實體)
+5 mobile phone 手機
+6 microcontroller 微控制器
+Port 埠號
+DHCP動態網路位置&lt;/p&gt;</content><category term="Misc"></category><category term="2020WCMJ"></category></entry><entry><title>2020wcmj W14</title><link href=".%5C2020-wcm-w14-summary.html" rel="alternate"></link><published>2020-06-05T16:00:00+08:00</published><updated>2020-06-05T16:00:00+08:00</updated><author><name>50833106</name></author><id>tag:None,2020-06-05:.\2020-wcm-w14-summary.html</id><summary type="html">&lt;p&gt;使Pelican Blog 內容與 Google Blogger 同步&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;使Pelican Blog 內容與 Google Blogger 同步&lt;/p&gt;
 
 
