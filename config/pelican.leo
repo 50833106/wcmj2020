@@ -82,6 +82,39 @@
 </v>
 <v t="leo.20200613133438.1"><vh>@clean 20200613w1.md</vh>
 <v t="leo.20200613133446.1"><vh>2020w1</vh></v>
+<v t="leo.20200613140236.1"><vh>4539309400801009659</vh></v>
+</v>
+<v t="leo.20200613060415.1"><vh>@clean 20200613w2.md</vh>
+<v t="leo.20200613060452.1"><vh>2020w2</vh></v>
+<v t="leo.20200613060649.1"><vh>4079915860262074163</vh></v>
+</v>
+<v t="leo.20200613060704.1"><vh>@clean 20200613w3.md</vh>
+<v t="leo.20200613060735.1"><vh>2020w3</vh></v>
+<v t="leo.20200613060942.1"><vh>6052849679371791581</vh></v>
+</v>
+<v t="leo.20200613060956.1"><vh>@clean 20200613w4.md</vh>
+<v t="leo.20200613061034.1"><vh>2020w4</vh></v>
+<v t="leo.20200613062511.1"><vh>6595911639768605329</vh></v>
+</v>
+<v t="leo.20200613061922.1"><vh>@clean 20200613w5.md</vh>
+<v t="leo.20200613062029.1"><vh>2020w5</vh></v>
+<v t="leo.20200613142500.1"><vh>820243495845947964</vh></v>
+</v>
+<v t="leo.20200613062638.1"><vh>@clean 20200613w6.md</vh>
+<v t="leo.20200613143206.1"><vh>2020w6</vh></v>
+<v t="leo.20200613143242.1"><vh>4572045871020345894</vh></v>
+</v>
+<v t="leo.20200613143457.1"><vh>@clean 20200613w7-8.md</vh>
+<v t="leo.20200613143723.1"><vh>2020w7-8</vh></v>
+<v t="leo.20200613143833.1"><vh>3388616831126172874</vh></v>
+</v>
+<v t="leo.20200613150157.1"><vh>@clean 20200613w9.md</vh>
+<v t="leo.20200613150338.1"><vh>2020w9</vh></v>
+<v t="leo.20200613151241.1"><vh>2956968901738808800</vh></v>
+</v>
+<v t="leo.20200613151258.1"><vh>@clean 20200613w14.md</vh>
+<v t="leo.20200613151738.1"><vh>2020w15-18</vh></v>
+<v t="leo.20200613151827.1"><vh>5476510886177340582</vh></v>
 </v>
 </v>
 </v>
@@ -413,6 +446,174 @@ Author: 50833106
 @others</t>
 <t tx="leo.20200605162217.1">透過 Python 程式修改網誌文章,使用 Google Blogger API 可以利用程式修改網誌文章內容,執行以下程式, 需要擷取 client_secrets.json 權限資料</t>
 <t tx="leo.20200605163334.1"></t>
+<t tx="leo.20200613060415.1">@language md
+---
+Title: 2020wcmj W2
+Date: 2020-06-13 14:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w2-summary
+Author: 50833106
+---
+w2
+
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613060452.1">課程小筆記
+
+IPv4 version 4 IP 四個區段,用.隔開
+IPv6 version 6 IP 八個區段,用:隔開
+[2001:288:6004:17::53]:3128 140.130.17.53:3128
+[2001:288:6004:17::42]:3128 140.130.17.53:254(系gateway通道)
+[2001:288:6004:17::17]:3128 140.130.1.*(校主幹)
+[2001:288:6004:17::7]:3128
+課程小單字
+tcp/ip==trandmision control protocol/internet protocol
+inter-net==inter-national(國際)
+(網際,inter+networt)
+protocal 協定
+microscope 顯微鏡
+telescope 望遠鏡
+trasmit 傳輸
+data 資料
+packet 封包
+control 控制
+macro 巨(比原子(atom)大)
+atomic bomb 原子彈中華電信 dns. server. dns==domain name server 符號名稱伺服器
+version 版本(短時間)
+edition 版本(長時間)
+router 路由器
+route 路徑
+remote login 遠端登入
+micro 微</t>
+<t tx="leo.20200613060649.1"></t>
+<t tx="leo.20200613060704.1">@language md
+---
+Title: 2020wcmj W3
+Date: 2020-06-13 14:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w3-summary
+Author: 50833106
+---
+建立可攜式環境
+
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613060735.1">為了讓工程師可以在不同的 Windows 10 64 位元電腦上管理 CMSiMDE 網際內容管理系統, 因此需要 Python 解譯環境以及一個文字檔案的編輯器.
+
+這裡所安裝的 Python 解譯器選擇由 C 所編寫的 CPython, 可以從 https://www.python.org/  下載安裝. 但是在此我們要將 Python 解譯系統配置在 USB 隨身碟上, 使用者可以隨身攜帶, 一旦配置完成後, 可以在任何一台 Windows 10 64 位元的筆電或電腦上執行 Python 或 C 程式.
+
+可攜 Python 程式環境的建立步驟:
+
+安裝 Python 套件時, 不要安裝 pip, 之後將 Python38 目錄複製到 data 目錄中, 然後建立 start.bat 指定使用可攜系統中的 Python, 之後再利用 get-pip.py, 以命令列中的 python get-pip.py 安裝 pip.
+
+可攜 Tiny C 程式環境的建立步驟:
+
+從 https://bellard.org/tcc/ 下載 Tiny C, 將 tcc 解開壓縮後放到 data 目錄中. 然後修改 wscite 目錄中的 cpp.properties, 使用 Tiny C 類解譯 .c 程式.
+
+選用的文字編輯器: https://www.scintilla.org/SciTE.html
+
+建立完成的可攜程式環境:
+
+下載 wcmj2020_tool.7z, 檔案大小為 435 MB, 解開壓縮後為 1.8 GB (其中包括 Mypaint, Dia 與 OBS 等)
+
+將 wcmj2020_tool.7z 解壓縮到隨身碟或電腦硬碟中, 將 home 與 home_ipv6 目錄中的 .gitconfig user.name 與 user.email 改為自己的 Github 帳號與 email 後, 利用 start.bat 啟動可攜系統, 利用 stop.bat 關閉可攜系統.
+
+</t>
+<t tx="leo.20200613060942.1"></t>
+<t tx="leo.20200613060956.1">@language md
+---
+Title: 2020wcmj W4
+Date: 2020-06-13 14:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w4-summary
+Author: 50833106
+---
+建網站
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613061034.1">此內容管理系統以 https:..github.com.mdecourse.cmsimde 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.
+利用 cmsimde 建立靜態網誌方法:
+在 github 建立倉儲, git clone 到近端
+參考https:..github.com.mdecourse.newcms, 加入除了 cmsimde 目錄外的所有內容
+以 git submodule add https:..github.com.mdecourse.cmsimde cmsimde
+建立 cmsimde 目錄, 並從 github 取下子模組內容.
+3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.
+動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.
+之後若要以 git clone 取下包含 submodule 的所有內容, 執行:
+git clone --recurse-submodules https:..github.com.mdecourse.newcms.git
+</t>
+<t tx="leo.20200613061922.1">@language md
+---
+Title: 2020wcmj W5
+Date: 2020-06-13 14:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w5-summary
+Author: 50833106
+---
+w5
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613062029.1">筆記
+firmwarre 韌體
+software 軟體
+hardware 硬體
+terminology 專業術語
+particular 特別
+technical 技術
+application 應用
+command wundow 命令視窗
+submodule 子模組
+machine language 機器語言
+URL:Uniform Resourse Locator 統一資源定位
+
+
+程式令:
+Y:←指y槽
+Y:\ ←表示Y槽的root根目錄
+&gt; 為回應符號(prormptsign)
+\ 為blackslash 反斜線
+dir為顯示目錄內容的指令
+cd tmp 表示change directory 到指定的目錄
+git為分散式版次管理的指令名稱
+git clone表示要使用git對遠端的倉儲進行clone。
+課堂小單字
+shell 殼
+interface 介面
+device 物件
+graphics 圖形
+</t>
+<t tx="leo.20200613062511.1"></t>
+<t tx="leo.20200613062638.1">@language md
+---
+Title: 2020wcmj W6
+Date: 2020-06-13 14:30
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w6-summary
+Author: 50833106
+---
+ portable obs教學
+
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
 <t tx="leo.20200613133438.1">@language md
 ---
 Title: 2020wcmj W1
@@ -441,6 +642,96 @@ Author: 50833106
 6 microcontroller 微控制器
 Port 埠號
 DHCP動態網路位置</t>
+<t tx="leo.20200613140236.1"></t>
+<t tx="leo.20200613142500.1"></t>
+<t tx="leo.20200613143206.1">portable obs
+google hangout meet
+streeming and recording
+---------------------------------------------------------------------------------------------------------------
+讓手機可以利用電腦熱點上網：
+採用 https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/
+將此一 USB Wifi adapter 連接電腦後, 若網路為 IPv4 協定時, 可以透過"設定 -&gt; 網路和網際網路 -&gt; 行動熱點", 選擇開啟並編輯"網路名稱與網路密碼"後, 讓至多 8 台手機透過熱點連線上網。
+但是因為目前 Windows 10 並未提供 IPv6 網路協定下的網路熱點功能, 因此在純 IPv6 網路協定下無法使用"行動熱點"服務。
+利用手機鏡頭當作 webcam:
+Android: https://www.digitalcitizen.life/turn-android-smartphone-webcam-windows
+iPhone: https://www.makeuseof.com/tag/use-your-iphone-as-a-webcam-heres-how-ios/
+需要 clone 個人倉儲時：
+git clone --recurse-submodules 倉儲_url.git
+例如: git clone --recurse-submodules https://github.com/mdecourse/wcmj2020.git
+現場直播的 audio 錄音設定
+在電腦輔助設計室進行直播時, 由於現場有擴音設備, 因此採用 OBS 串流至 Youtube 的最佳收音並非從 Webcam 的麥克風, 而是從擴音器以 audio outpu 連接到電腦的麥克風插槽, 然後將 OBS 的 audio 設定為從電腦的麥克風收音.
+</t>
+<t tx="leo.20200613143242.1"></t>
+<t tx="leo.20200613143457.1">@language md
+---
+Title: 2020wcmj W7-8
+Date: 2020-06-13 14:30
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w7.8-summary
+Author: 50833106
+---
+ grouping and meeting
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613143723.1">第三組group3
+50833104 組長
+50833106
+50833113
+50833114
+50833116
+50833118
+50833120
+50833125
+50833140
+50833141
+proxy
+2001:288:6004:17::53
+2001:288:6004:17::42
+2001:288:6004:17::17
+2001:288:6004:17::4 "虛擬主機 可以校外連接"
+下周可能線上上課</t>
+<t tx="leo.20200613143833.1"></t>
+<t tx="leo.20200613150157.1">@language md
+---
+Title: 2020wcmj W9
+Date: 2020-06-13 15:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w9-summary
+Author: 50833106
+---
+期中考
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613150338.1">學習這幾周下來之心得
+
+w1教我們如何建立blogger
+
+w2-4則是教我們如何用git指令建立cmsimde網站，並如何維護
+
+而w6-w9則是教學如何開直播</t>
+<t tx="leo.20200613151241.1"></t>
+<t tx="leo.20200613151258.1">@language md
+---
+Title: 2020wcmj W15-18
+Date: 2020-06-13 15:00
+Category: Misc
+Tags: 2020WCMJ
+Slug: 2020-wcm-w15.18-summary
+Author: 50833106
+---
+統整
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others</t>
+<t tx="leo.20200613151738.1">將 W1-W14 週的所有上課內容, 以圖文及影音資料加以整理在個人及分組倉儲、網站及簡報外,還要自選另一主題, 將分組協同的過程與內容整理在個人與分組的倉儲資料中.</t>
+<t tx="leo.20200613151827.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
